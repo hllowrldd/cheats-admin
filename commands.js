@@ -2,7 +2,7 @@ const config = Game.serverSettings.cheatsAdmin
 
 //--------------------------------------------Properties--------------------------------------------\\                           
 
-const admins = config.admins || [], // Your id here!
+const admins = config.admins || ['1048119'], // Your id here!
       banned = config.banned || [], // Add your foes' ids here!
       allowEval = config.allowEval || false, // Set to true if you want to use /eval *this is an unsafe command*
       maxScale = config.maxScale || 10,
